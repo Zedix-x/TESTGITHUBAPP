@@ -11,7 +11,7 @@ struct ProfilePage: View {
     var body: some View {
         
         Image(systemName: "person.crop.circle").font(.system(size: 100))
-        Text("Hello I'm a profile page").font(.largeTitle)
+        Text("CACA").font(.largeTitle)
         
     }
 }

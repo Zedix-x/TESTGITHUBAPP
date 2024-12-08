@@ -9,7 +9,21 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+           
+            VStack {
+                Image(systemName: "house")
+                    .font(.title)
+                    .foregroundStyle(.white)
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                    .foregroundStyle(.white)
+            }
+        }
+        
+       
     }
 }
 
